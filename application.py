@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-application=Flask(__name__)
+application=Flask(__name__)# the ":application" word is being used in python.config to connect to aws config and  before : is the name of the .py file that is application.py
 app=application
 
 #import ridge regressor and standaer sclaer pickle
